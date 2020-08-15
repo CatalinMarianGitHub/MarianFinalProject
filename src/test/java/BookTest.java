@@ -11,7 +11,7 @@ public class BookTest {
 
 
     @Test
-    public void _1_verifyBookCanBeLended() throws IOException, InterruptedException {
+    public void _1_verifyBookCanBeLendedd() throws IOException, InterruptedException {
         Configuration config = new Configuration();
         ApiCalls api = new ApiCalls();
         seleniumHelper = new SeleniumHelper(config.getBrowser());
